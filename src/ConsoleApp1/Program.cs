@@ -26,8 +26,8 @@ namespace ConsoleApp1
 
 		static void README_QuickStart_Sample1()
 		{
-			//always need to use YOUR_API_KEY for requests.  Do this in App_Start.
-			GoogleSigned.AssignAllServices(new GoogleSigned("YOUR_API_KEY"));
+			//always need to use AIzaSyDyrcySjhH_JOpJ9461agf8vkyJbvkmD_k for requests.  Do this in App_Start.
+			GoogleSigned.AssignAllServices(new GoogleSigned("AIzaSyDyrcySjhH_JOpJ9461agf8vkyJbvkmD_k"));
 
 			var request = new GeocodingRequest();
 			request.Address = "1600 Pennsylvania Ave NW, Washington, DC 20500";
@@ -82,8 +82,8 @@ namespace ConsoleApp1
 
 		static void DoGeocodeRequest()
 		{
-			//always need to use YOUR_API_KEY for requests.  Do this in App_Start.
-			//GoogleSigned.AssignAllServices(new GoogleSigned("YOUR_API_KEY"));
+			//always need to use AIzaSyDyrcySjhH_JOpJ9461agf8vkyJbvkmD_k for requests.  Do this in App_Start.
+			GoogleSigned.AssignAllServices(new GoogleSigned("AIzaSyDyrcySjhH_JOpJ9461agf8vkyJbvkmD_k"));
 			//commented out in the loop
 
 			Console.WriteLine();
